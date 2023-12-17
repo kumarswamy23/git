@@ -1,10 +1,12 @@
-    <html lang="en">
+    <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Second html </title>
     </head>
     <body>
+        <h1><a target="_blank" href="https://www.google.com">Hello World</a></h1>
+        <dt>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, dolorum esse. Delectus molestiae, ad quas tempora iure ab, sunt dolorum, temporibus necessitatibus vero placeat culpa? Accusamus similique natus neque quia.</p>
+        </dt>
         
-    </body>
+        </body>
     </html>
