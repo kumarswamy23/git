@@ -1,70 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="height: 100;">
 <head>
 <title>Tables</title>
+<style>
+    #th:hover{
+        background-color:lightblue;
+    }
+    .tr1{
+        background-color:darkturquoise;
+    }
+    table{
+        border-radius: 2px;
+    }
+</style>
 </head>
 <body>
-    <h1>Time Table</h1>
-    <table>
-        <strong><caption>TIME TABLE</caption></strong>
-        <tr>
+    <u><h1>Time Table</h1></u>
+    <table style="height: 300px;width: 100%;" border="2px">
+        <caption>TIME TABLE</caption>
+        <tr class="tr1">
         <th>Day/Period</th>
-        <th>I</th>
+        <th >I</th>
         <th>II</th>
         <th>III</th>
-        <th rowspan="7">LUNCH</th>
+        <th>LUNCH</th>
         <th>IV</th>
         <th>V</th>
         <th>VI</th>
         <th>VII</th>
         </tr>
         <tr>
-            <th>Monday</th>
-            <td>eng</td>
-            <td>mat</td>
-            <td>che</td>
-            <td colspan="3">LAB</td>
-            <td>phy</td>
+            <th id="th">Monday</th>
+            <td style="text-align: center;">eng</td>
+            <td style="text-align: center;">mat</td>
+            <td style="text-align: center;">che</td>
+            <td rowspan="6" style="text-align: center;" >L <br><br>
+                U <br> <br>
+                N <br><br>
+                C <br><br>
+                H <br><br>
+            </td>
+            <td colspan="3" style="text-align: center;">LAB</td>
+            <td style="text-align: center;">phy</td>
         </tr>
         <tr>
-            <th>Tuesday</th>
-            <td colspan="3">LAB</td>
-            <td>eng</td>
-            <td>che</td>
-            <td>mat</td>
-            <td>sports</td>
+            <th id="th">Tuesday</th>
+            <td colspan="3" style="text-align: center;">LAB</td>
+            <td style="text-align: center;">eng</td>
+            <td style="text-align: center;">che</td>
+            <td style="text-align: center;">mat</td>
+            <td style="text-align: center;">sports</td>
         </tr>
         <tr>
-            <th>Wednesday</th>
-            <td>mat</td>
-            <td>phy</td>
-            <td>eng</td>
-            <td>che</td>
-            <td colspan="3">LIBRARY</td>
+            <th id="th">Wednesday</th>
+            <td style="text-align: center;">mat</td>
+            <td style="text-align: center;">phy</td>
+            <td style="text-align: center;">eng</td>
+            <td style="text-align: center;">che</td>
+            <td colspan="3" style="text-align: center;">LIBRARY</td>
         </tr>
         <tr>
-            <th>Thursday</th>
-            <td>phy</td>
-            <td>eng</td>
-            <td>che</td>
-            <td colspan="3">LAB</td>
-            <td>mat</td>
+            <th id="th">Thursday</th>
+            <td style="text-align: center;">phy</td>
+            <td style="text-align: center;">eng</td>
+            <td style="text-align: center;">che</td>
+            <td colspan="3" style="text-align: center;">LAB</td>
+            <td style="text-align: center;">mat</td>
         </tr>
         <tr>
-            <th>Friday</th>
-            <td colspan="3">LAB</td>
-            <td>mat</td>
-            <td>che</td>
-            <td>eng</td>
-            <td>phy</td>
+            <th id="th">Friday</th>
+            <td colspan="3" style="text-align: center;">LAB</td>
+            <td style="text-align: center;">mat</td>
+            <td style="text-align: center;">che</td>
+            <td style="text-align: center;">eng</td>
+            <td style="text-align: center;">phy</td>
         </tr>
         <tr>
-            <th>Saturday</th>
-            <td>eng</td>
-            <td>che</td>
-            <td>mat</td>
-            <td colspan="3">SEMINAR</td>
-            <td>SPORTS</td>
+            <th id="th">Saturday</th>
+            <td style="text-align: center;">eng</td>
+            <td style="text-align: center;">che</td>
+            <td style="text-align: center;">mat</td>
+            <td colspan="3" style="text-align: center;">SEMINAR</td>
+            <td style="text-align: center;">SPORTS</td>
         </tr>
     </table>
 
